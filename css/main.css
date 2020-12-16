@@ -1,0 +1,127 @@
+.SingInUp {
+	text-align: right;
+	display: block;
+	box-sizing: border-box;
+ 	width: 325px;
+ 	height: 285px;
+ 	padding: 30px;  
+ 	border: 10px solid #000000;
+ 	background-color: #4a6d88;
+ 	text-decoration-color: #FFFFFF;
+ 	float: right;
+}
+
+.singButtons {
+	text-align: center;
+}
+
+.titleString {
+	display: block;
+	text-align: left;
+	padding: 55px;
+	margin: 0px;
+	font: 150px Arial, sans-serif;
+	color: #c6cdd7;
+}
+
+header {
+	background-color: #001e38;
+}
+
+nav {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+nav a{
+	color:#010c1e;
+	font-size: 20px;
+	text-align: center;
+	float: left;
+	display: inline;
+	margin:1.5%;
+	padding:40px;
+	text-decoration: none;
+	background-color: #c6cdd7;
+	vertical-align: middle;
+	width: 8%;
+	height: 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+}
+
+.image {
+	/*display: block;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	height: auto;
+}
+
+.image img {
+	width: 100%;
+	height: auto;
+}
+
+body {
+	padding: 10px;
+	margin: 1%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 75%;
+	background-image: url(https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg);
+	background-color: #000000;
+	background-size: cover;
+}
+
+main {
+	text-align: left;
+	color: #d5d0e0;
+	font: 20px Arial, sans-serif;
+	display: block;
+	background-color: #000000a1;
+}
+
+#indexText p {
+	color: #d5d0e0;
+	font: 20px Arial, sans-serif;
+	text-align: center;
+	display: block;
+}
+
+#indexVideo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+footer {
+	background-color: #4a6d88;
+	color: #d5d0e0;
+	font: 20px Arial, sans-serif;
+	text-align: center;
+	display: block;
+	padding: 20px;
+}
+
+.priceText p {
+	text-align: left;
+	color: #d5d0e0;
+	font: 20px Arial, sans-serif;
+	display: block;
+}
+
+.mainPrice img {
+	padding: 0.75%;
+}
+
+h1 {
+	font: 45px Arial, sans-serif;
+}

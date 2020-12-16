@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>StarsInMinds - Історія планетарію</title>
+    <link rel="stylesheet" href="css/print.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <link rel="stylesheet" href="css/handheld.css">
 </head>
 <body>
+	<form action="#" method="get"></form> <!-- Підключаємо форму -->
+	<div class="SingInUp">
+		<p>Логін:<input type="text" name="Username" value=""></p> <!-- Налаштовуємо однострокові поля -->
+		<p>Пароль:<input type="password" name="Password" value=""></p>
+		<p><input type="radio" name="ShowPasswd" value="">Показувати пароль</p> <!-- Додаємо радіо кнопку -->
+		<p><input type="checkbox" name="RememberMe" value="">Запам'ятати мене</p> <!-- Додаємо прапорець -->
+		<p class="singButtons"><button type="submit">Увійти</button><br><button type="submit">Зареєструватися</button></p> <!-- Додаємо кнопки для підтвердження інформації -->
+	</div>
 	<header>
-		<h1>StarsInMinds</h1>
+		<h1 class="titleString">StarsInMinds</h1>
 			<nav>
 				<a href="index.html">Головна</a>
 				<a href="price.html">Пропозиції</a>

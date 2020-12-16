@@ -1,0 +1,9 @@
+@media print and (monochrome) { 
+	body { font-family: Times, 'Times New Roman', serif; }
+	h1, h2, p { color: black; }
+}
+
+@media print and (color) { 
+	body { font-family: Arial, Verdana, sans-serif; }
+	h1, h2, p { color: #556b2f; }
+}
